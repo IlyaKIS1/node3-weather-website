@@ -3,10 +3,12 @@ const search = document.querySelector("input");
 const messageOne = document.querySelector("#message-1")
 const messageTwo = document.querySelector("#message-2")
 
-
+console.log(process.env.PORT)
+console.log("teper tut")
 
 weatherForm.addEventListener("submit", (e) => {
     e.preventDefault();
+    console.log("zdesya")
 
    const location = search.value
    messageOne.textContent = "Loading...";

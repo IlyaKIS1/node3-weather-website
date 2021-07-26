@@ -5,7 +5,8 @@ const request = require('request');
 const forecast = require('./utils/forecast');
 const geocode = require('./utils/geocode')
 
-
+console.log("zdes")
+console.log(process.env.PORT)
 const app = express();
 const port = process.env.PORT || 3000;
 
